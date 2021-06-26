@@ -8,7 +8,6 @@ app.use(express.json());
 app.use(express.static('public'));
 
 
-mongoose.connect('mongodb+srv://admin:Test123@cluster0.lwcjb.mongodb.net/insuranceDB', { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 const insuranceSchema = mongoose.Schema({
     name: String,

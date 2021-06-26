@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    width:100%;
+    font-family:'Poppins', sans-serif;
+   
+} */
+body{
+  margin:0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family:'Poppins', sans-serif;
+}
+
+
+
+/* *{
+    border:2px solid black;
+} */ 
+.head{
+  
+  animation: bg_change 8s infinite linear;
+ 
+  
+}
+@keyframes bg_change{
+  0%{
+    background-image: url("../images/pexels-karolina-grabowska-4386466.jpg");
+    height: 40rem;
+    width:auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  50%{
+    background-image: url("../images/pexels-pixabay-160994.jpg");
+    height: 40rem;
+    width:auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  70%{
+    ackground-image: url("../images/gettyimages-1171957538-2048x2048.jpg");
+    height: 40rem;
+    width:auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  100%{
+    background-image: url("../images/gettyimages-1171957538-2048x2048.jpg");
+    height: 40rem;
+    width:auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+}
+.lead{
+  font-family: 'Recursive', sans-serif;
+  line-height: 3rem;
+  padding:5% 5% 5% 0;
+}
+.card-text{
+  
+ 
+  line-height: 2rem;
+  padding:5% 0;
+}
+.card-title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.head-ele1{
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.head-ele2{
+    position: relative;
+    
+}
+.head-ele3{
+    position:relative;
+    top:0;
+   
+}
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.c1{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color:black;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+.about{
+    margin-top: 5%;
+    padding: 5% 8%;
+}
+.about-heading{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.services{
+    padding:5% 4%;
+    background: url("../images/b4.jpg");
+    background-size:cover;
+     opacity: 1;
+}
+#contatti{
+    margin:7% 10% 3% 10%;
+    
+    background:url("../images/1.jpg");
+    letter-spacing: 2px;
+    }
+  #contatti a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  @media (max-width: 575.98px) {
+  
+    
+    #contatti .maps iframe{
+      width: 100%;
+     /*  height: 450px; */
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     
+  
+     #contatti .maps iframe{
+       width: 100%;
+  /*      height: 450px; */
+     }
+   }
+  
+  @media (min-width: 763px) {
+  
+    
+    #contatti .maps iframe{
+      width: 100%;
+      height: 400px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+   
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 400px;
+     }
+  }
+  
+  
+  #author a{
+    color: #fff;
+    text-decoration: none;
+      
+  }
+  @media only screen and (min-width:300px) and (max-width: 821px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Recursive:wght@800&family=Vesper+Libre:wght@700&display=swap');
+.navbar{
+  
+  background-color: #6e7582;
+  padding-top: 0;
+  
+}  
+.nav-link{
+  color:white;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Recursive', sans-serif;
+
+}
+.navbar-brand{
+  color:black;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  color:black;
+}

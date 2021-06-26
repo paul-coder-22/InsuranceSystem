@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Recursive:wght@800&family=Vesper+Libre:wght@700&display=swap');
+body{
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
+.navbar{
+  
+  background-color: #6e7582;
+  padding-top: 0;
+  
+}  
+.nav-link{
+  color:white;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Recursive', sans-serif;
+
+}
+.navbar-brand{
+  color:black;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  color:black;
+}
+.head{
+  
+  background-size:cover;
+  
+  background-position: center;
+ height: 40rem;
+ text-align: center;
+ color: black;
+
+ font-size: larger;
+ margin-bottom: 5%;
+}
+.head-text{
+  text-align: center;
+  padding: 10% 5% 10% 8%;
+}
+.head-text h1{
+  margin-bottom: 20px;
+}
+/* *{
+  border:1px solid black;
+} */
+.body{
+  
+  text-align:center;
+  padding:5% 15% 5% 15%;
+  line-height: 2rem;
+}
+.body h1{
+  margin-bottom: 20px;
+
+}
+.head-img{
+  background: url("../images/teamwork.png");
+  background-size:cover;
+  
+  background-position: center;
+ height: 40rem;
+}
+.way h1{
+  text-align: center;
+  margin-bottom:5%;
+}
+.card-group{
+  padding: 10% 5%;
+}
+.card{
+  margin-left: 10%;
+}
+#contatti{
+  margin:7% 10% 3% 10%;
+  
+  background:url("../images/1.jpg");
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  
+  #contatti .maps iframe{
+    width: 100%;
+   /*  height: 450px; */
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   
+
+   #contatti .maps iframe{
+     width: 100%;
+/*      height: 450px; */
+   }
+ }
+
+@media (min-width: 763px) {
+
+  
+  #contatti .maps iframe{
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+ 
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 400px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+@media only screen and (min-width:300px) and (max-width: 821px){
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
+}
+/* *{
+  border:2px solid black;
+} */

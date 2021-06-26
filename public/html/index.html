@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sWiftCare</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="../index.js"></script> 
+   
+</head>
+<body>
+    <nav class="navbar   navbar-expand-lg sticky-top " >
+       <div class="container-fluid">
+        <a class="navbar-brand " href="#"><span>Swift<strong>care</strong></span></a>
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="../html/about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../html/health.html">Health Insurance</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "  href="../html/contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+        </div>
+       </div>
+    </nav>
+    
+    <div class="row head">
+         
+           <div class="col-md-6 head-ele2"></div>
+           <div class="col-md-6 head-ele3" ><div class="container">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card c1" data-aos="fade-down" >
+                    <div class="card-header">
+                        <h3>Sign In</h3>
+                        <div class="d-flex justify-content-end social_icon">
+                            <span><i class="fab fa-facebook-square"></i></span>
+                            <span><i class="fab fa-google-plus-square"></i></span>
+                            <span><i class="fab fa-twitter-square"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="/login" method="POST">
+                          
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="emailId" id="email" name="email" required>
+                                
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="password" id="password" name="password" required>
+                            </div>
+                              <br>
+                            <div class="form-group">
+                                <button type="submit" id="login"class="btn float-right login_btn" >Login</button>
+                            </div>
+                            <div class="card-footer">
+                              <div class="d-flex justify-content-center links" style="font-size: larger;">
+                                  Don't have an account?<button type="submit" id="signup"class="btn float-right login_btn"  style="margin:2%"><a href="../html/register.html" style="text-decoration: none;color:black;font-weight: 399;">Register</a></button>
+                              </div>
+              
+                          </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div></div>
+            
+    </div>
+    <div class="about">
+        <h1 class="about-heading" data-aos="fade-down">About Us</h1>
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> <span class="text-muted">SWIFTCARE</span></h2>
+          <p class="lead">
+            Swiftcare, a  digital life insurance company. By focusing on innovative digital-first solutions, its vision is to enable customers to lead tension free lives and be the most recommended new age Life Insurance Company. The company’s Direct to Customer focus establishes a direct dialogue with the customers to make for greater clarity and transparency. Being the online protection specialists,Swiftcare has a dedicated customer service team that is geared to provide superior customer experience.
+          </p>
+          <button class="btn bg-primary" style="font-weight: bolder;"><a href="../html/about.html" style="color: black; text-decoration: none;">Know More</a></button>
+        </div>
+        <div class="col-md-5">
+          <img src="../images/Wavy_Tech-23_Single-06.jpg" alt="" srcset="" height="500" width="500" data-aos="fade-left">
+  
+        </div>
+      </div>
+    </div>
+    <div class="services" >
+        <h1 class="about-heading" data-aos="fade-down" >Our services</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4" >
+           
+            
+            <div class="col" style="text-align: center;margin: auto;">
+              <div class="card" data-aos="fade-up" style="padding: 4% 4%;background-color: rgba(0,0,0,0.1)">
+                <img src="../images/Health-Insurance-1920x1080.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" data-aos="slide-right">Health Insurance</h5>
+                  <p class="card-text">The Policy provides cover on an Individual or Family Floater basis. A separate Sum Insured for each Insured Person is provided under Individual basis while under Family Floater basis, the Sum Insured limit is shared by the whole family of the Insured as specified in the Policy Schedule .<br></p>
+                </div>
+                <button class="btn bg-primary" style="font-weight: bolder; "> <a href="../html/health.html" style="color: black; text-decoration: none;">Know More</a> </button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row " id="contatti" >
+        <div class="container mt-5" >
+        
+            <div class="row" >
+              <div class="col-md-6 maps" data-aos="slide-right">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-6" data-aos="slide-right">
+                <h2 class="text-uppercase mt-3 font-weight-bold text-white">CONTACT US</h2>
+                <form >
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mt-2" placeholder="First Name" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mt-2" placeholder="Last Name" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control mt-2" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="number" class="form-control mt-2" placeholder="Telephone No" required>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Text Here.." rows="3" required style="margin-top: 10px;"></textarea>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12" style="margin-top: 10px;">
+                      <button class="btn btn-light" type="submit"><a href="mailto:cswagata19@gmail.com" style="color:black;margin-top:10px;">sent</a></button>
+                    </div>
+                  </div>
+                </form>
+               
+              </div>
+        
+            </div>
+        </div>
+        </div>
+       
+       
+    
+    
+        
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
